@@ -14,6 +14,7 @@ import {
 } from './paddings';
 import processObjectPosition from './objectPosition';
 import processTransformOrigin from './transformOrigin';
+import { processColumnCount, processColumnGap } from './columns';
 
 const shorthands = {
   flex: processFlex,
@@ -42,6 +43,8 @@ const shorthands = {
   borderWidth: processBorders,
   objectPosition: processObjectPosition,
   transformOrigin: processTransformOrigin,
+  columnCount: processColumnCount,
+  columnGap: processColumnGap,
 };
 
 /**
